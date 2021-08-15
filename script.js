@@ -2,7 +2,7 @@
 var generateBtn = document.querySelector("#generate");
 var lowercaseAphabet = 'abcdefghijklmnopqrstuvwxyz'.split('');
 var uppercaseAphabet = 'abcdefghijklmnopqrstuvwxyz'.split('').map((c) => c.toUpperCase());
-var specialCharacters = " !\"#$%&'()*+,-./:;<=>?\\@[]^_`{|}~".split('');
+var specialCharacters = "!\"#$%&'()*+,-./:;<=>?\\@[]^_`{|}~".split('');
 var numericCharacters = "1234567890".split('');
 
 // console logs to make sure all strings are split into arrays correctly
